@@ -8,12 +8,28 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    enum Constants {
+        
+    }
+    
+    //MARK: - Create UI
+    
+    //MARK: - Lifecycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        setupViews()
+        setConstraints()
     }
-
-
+    
+    private func setupViews() {
+        view.backgroundColor = .red
+    }
+    
+    //MARK: - setConstraints
+    
+    private func setConstraints() {
+        
+    }
 }
 
